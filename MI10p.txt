@@ -1,0 +1,8 @@
+define service{
+ use generic-service ; Kế thừa từ mẫu
+ host_name hplj2605dn ; Tên của máy in được giám sát
+ service_description Printer Status ; Mô tả dịch vụ
+ check_command check_hpjd!-C public ; Lệnh để sử dụng giám sát
+dịch vụ
+ normal_check_interval 10 ; kiểm tra lại dịch vụ sau 10 phút
+ } 

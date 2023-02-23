@@ -1,0 +1,4 @@
+define command{
+ command_name Tên lệnh
+ command_line Người dùng/script! Danh sách tham số
+} 

@@ -1,0 +1,6 @@
+define service{
+ use generic-service ; kế thừa giá trị mặc định từ mẫu
+ host_name remotehost
+ service_description POP3
+ check_command check_pop
+ }

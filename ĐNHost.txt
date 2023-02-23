@@ -1,0 +1,7 @@
+define host{
+ use linux-server //kế thừa định nghĩa mẫu có sẵn
+host_name fedora10
+ alias f10
+address 192.168.11.254
+…
+ }

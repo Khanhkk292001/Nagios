@@ -1,0 +1,7 @@
+define service{
+ use generic-service Thừa kế giá trị từ mẫu
+ host_name linksys-srw224p
+ service_description Port 1010 Link Status
+ check_command check_snmp!-C public -o ifOperStatus.1010 -r 1 -m
+RFC1213-MIB
+ } 
