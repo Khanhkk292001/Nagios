@@ -1,5 +1,0 @@
-define service{
- use generic-service ; Inherit values from a template
- host_name linksys-srw224p
- check_command check_ping!200.0,20%!600.0,60% ;
- } 
