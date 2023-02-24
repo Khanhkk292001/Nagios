@@ -1,6 +1,0 @@
-define service{
-service_description Webproxy
-host_name linux01
-check_command check_proxy!3128
-...
-} 
